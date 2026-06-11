@@ -1,0 +1,8 @@
+/.env.env
+.env
+package.json
+package-lock.json
+README.md
+src/
+migrations/
+seeders/
