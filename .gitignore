@@ -1,8 +1,21 @@
-/.env.env
 .env
-package.json
-package-lock.json
-README.md
-src/
-migrations/
-seeders/
+.env.*
+!.env.example
+
+node_modules/
+
+# Secrets / cloud credentials
+serviceAccountKey.json
+*serviceAccount*.json
+
+# Generated upload files
+src/file-upload-learning/**/uploads/
+src/file-upload-learning/**/processed/
+
+# Local/generated output
+output.txt
+*.log
+
+# OS/editor files
+.DS_Store
+.vscode/
